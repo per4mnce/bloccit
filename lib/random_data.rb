@@ -1,6 +1,4 @@
-# #5
  module RandomData
- # #6
    def random_paragraph
      sentences = []
      rand(4..6).times do
@@ -10,7 +8,6 @@
      sentences.join(" ")
    end
  
- # #7
    def random_sentence
      strings = []
      rand(3..8).times do
@@ -21,7 +18,6 @@
      sentence.capitalize << "."
    end
  
- # #8
    def random_word
      letters = ('a'..'z').to_a
      letters.shuffle!
