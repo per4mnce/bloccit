@@ -14,4 +14,14 @@ class FavoriteMailer < ApplicationMailer
      #mail(to: user.email, subject: "New comment on #{post.title}")
      mail(to: "per4mnce@yahoo.com", subject: "Bloccit Test")
   end
+  
+  def mailSend(to, subject, body)
+    #attachments['robots.txt'] = File.read('public/robots.txt')
+    ActionMailer::Base.mail(
+      from:    "per4mnce@gmail.com", 
+      to:      to, 
+      subject: subject, 
+      body:    body).deliver_now
+  end
+  
 end
