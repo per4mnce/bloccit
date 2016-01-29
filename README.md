@@ -1,6 +1,12 @@
-## Bloccit
+# Bloccit
 A Reddit replica to learn the fundamentals of web development and Rails. <br />
-[App in Heroku](https://protected-stream-3965.herokuapp.com/about)<br />
+[Heroku Link](https://protected-stream-3965.herokuapp.com/about)<br />
+
+## Features:
+Just like Reddit, Bloccit is an app where people can post, vote on, share and save links and comments.
+ 
+## Technology Focus:
+Ruby on Rails, HTML, CSS
 
 Made with my mentor, Chris Beck, at [Bloc](http://bloc.io).<br>
-![Chris Beck](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/2b5/190/05ddd10.jpg)
+![Chris Beck](https://cdn-photos.bloc.io/mentor_data_photos/square/20/profile_business_smile-white-450.jpg)
